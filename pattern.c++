@@ -69,6 +69,8 @@ int main()
     for (int i = 0; i < t; i++)
     {
         cin >> n;
+        // printpattern1(n);
+        // printPattern2(n);
         printPattern3(n);
     }
 }
