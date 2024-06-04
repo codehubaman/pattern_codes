@@ -40,7 +40,7 @@ void printPattern3(int n)
     int space = 2 * n - 2;
     for (int i = 1; i <= n; i++)
     {
-        // print star
+        // print no.
         for (int j = 1; j <= i; j++)
         {
             cout << j;
@@ -52,6 +52,7 @@ void printPattern3(int n)
             cout << " ";
         }
         space -= 2;
+        // print no.
         for (int j = i; j >= 1; j--)
         {
             cout << j;
